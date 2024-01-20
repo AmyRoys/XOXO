@@ -1,0 +1,31 @@
+.navbar {
+    position: fixed;  /* Make the navbar stick to the top of the page */
+    top: 500px;
+    left: 700px;
+   /* height: 100%;   Make the navbar span the full height of the page */
+    width: 200px;  /* Set the width of the navbar */
+    /* background-color: #333; */
+    overflow: auto;  /* Add a scrollbar if the content is too long */
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 50px;
+}
+
+.navbar li:hover {
+    background-color: #111;
+}
+
+.navbar li a:visited {
+    color: rgb(236, 229, 138);  /* Set the color of visited links */
+}

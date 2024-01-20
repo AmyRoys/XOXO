@@ -1,0 +1,15 @@
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Align items horizontally in the center */
+    align-items: center;  /* Align items vertically in the center */
+    border: 1px solid black;
+    background-color:  rgba(3, 3, 3, 0.7);
+    border-radius: 10px;	
+    width: 400px;
+    height: 450px;
+    margin-top: 200px;
+    color:rgb(245, 235, 177);
+    font: 15px Times New Roman;
+    text-align: center;
+}
