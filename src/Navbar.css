@@ -1,10 +1,10 @@
 .navbar {
-    position: fixed;  /* Make the navbar stick to the top of the page */
-    top: 500px;
-    left: 700px;
-   /* height: 100%;   Make the navbar span the full height of the page */
-    width: 200px;  /* Set the width of the navbar */
-    /* background-color: #333; */
+    display:flex;
+    width: 200px; 
+    height: 100vh;
+    padding: 20px;
+    margin-top: 220px;
+    margin-left: 150px;
     overflow: auto;  /* Add a scrollbar if the content is too long */
 }
 
@@ -12,14 +12,16 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar li {
-    padding: 8px 16px;
+    padding: 20px 16px;
     text-decoration: none;
     color: white;
     display: block;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .navbar li:hover {
