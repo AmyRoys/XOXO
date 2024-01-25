@@ -1,10 +1,10 @@
 .navbar {
-    position: fixed;  /* Make the navbar stick to the top of the page */
-    top: 500px;
-    left: 700px;
-   /* height: 100%;   Make the navbar span the full height of the page */
-    width: 200px;  /* Set the width of the navbar */
-    /* background-color: #333; */
+    display:flex;
+    top: 220px;
+    left: 90px;
+    width: 200px; 
+    height: 100vh;
+    padding: 20px;
     overflow: auto;  /* Add a scrollbar if the content is too long */
 }
 
@@ -12,6 +12,8 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar li {
@@ -19,7 +21,7 @@
     text-decoration: none;
     color: white;
     display: block;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .navbar li:hover {
