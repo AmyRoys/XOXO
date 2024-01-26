@@ -42,9 +42,14 @@
   color: #888;
 }
 
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .content-left {
-  text-align: left;
-  padding-left: 10px; /* Adjust as needed */
+  display: flex;
+  flex-direction: row;
 }
 
 body{
