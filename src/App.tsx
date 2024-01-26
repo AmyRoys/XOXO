@@ -9,11 +9,8 @@ function App() {
     <>
      <div className="app-container">
         <Header />
-        <div className="content-left">
+        <div className="centre-container">
           <Navbar />
-        </div>
-
-        <div className="content-left">
           <Content />
         </div>
       </div>
