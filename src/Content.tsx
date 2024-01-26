@@ -4,6 +4,8 @@ import serena from './assets/serena.jpeg';
 import blair from './assets/blair.jpg';
 import Jenny_Humphrey_Season_3 from './assets/Jenny_Humphrey_Season_3.jpg';
 import dan from './assets/dan.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 const Content = () => {
     const contents = [
@@ -22,14 +24,16 @@ const Content = () => {
     const prevContent = () => {
         setIndex((index - 1 + contents.length) % contents.length);
     };
-
     return (
-        <div className="content-container">
-            <h2>{contents[index].title}</h2>
-            <img src={contents[index].image} alt="Content" style={{ width: 250, height: 250 }} />
-            <p>{contents[index].text}</p>
-            <button onClick={prevContent}>&larr;</button>
-            <button onClick={nextContent}>&rarr;</button>
+        <div className="carousel">
+            <div className="content-container">
+                <button className="arrow arrow-left" onClick={prevContent}><FontAwesomeIcon icon={faChevronLeft} size="2x" /></button
+                >
+                <h2>{contents[index].title}</h2>
+                <img src={contents[index].image} alt="Content" style={{ width: 250, height: 250 }} />
+                <p>{contents[index].text}</p>
+                <button className="arrow arrow-right" onClick={nextContent}><FontAwesomeIcon icon={faChevronRight} size="2x" /></button>
+            </div>
         </div>
     );
 };
