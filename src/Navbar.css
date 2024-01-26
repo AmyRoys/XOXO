@@ -12,20 +12,17 @@
     margin: 0;
     display: flex;
     flex-direction: column;
+    color: #ece58a;
 }
 
-.navbar li {
+.navbar li a {
     padding: 20px 16px;
     text-decoration: none;
-    color: white;
+    color: #ece58a;
     display: block;
     font-size: 23px;
 }
 
-.navbar li:hover {
-    background-color: #111;
-}
-
-.navbar li a:visited {
-    color: rgb(236, 229, 138);  /* Set the color of visited links */
+.navbar li a:hover {
+    color: #edeac2;
 }
