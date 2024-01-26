@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin-bottom: 2%; 
   }
 
 .logo-container{
     justify-content: flex-end;
-    margin: 5% 10% 0% 10%; 
+    margin: 2% 10% 0% 10%; 
 }
 
 img{
