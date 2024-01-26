@@ -1,13 +1,15 @@
-.header-logo {
-    position: absolute; 
-    top: 70px;
-    right: 80px;
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+.logo-container{
+    justify-content: flex-end;
+    margin: 5% 10% 0% 10%; 
 }
 
-
-.image-container{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+img{
+    height: 100px;
+    width: auto;
 }
