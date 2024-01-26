@@ -2,9 +2,7 @@
     display:flex;
     width: 200px; 
     height: 100vh;
-    padding: 20px;
-    margin-top: 220px;
-    margin-left: 150px;
+    margin-left: 100px;
     overflow: auto;  /* Add a scrollbar if the content is too long */
 }
 

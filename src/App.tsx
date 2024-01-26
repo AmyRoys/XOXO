@@ -5,13 +5,14 @@ import Navbar from './Navbar'
 
 function App() {
   
-
   return (
     <>
-      <Header />
-      <Navbar />
-      <div className="content-left">
-        <Content />
+     <div className="app-container">
+        <Header />
+        <div className="centre-container">
+          <Navbar />
+          <Content />
+        </div>
       </div>
     </>
   )
