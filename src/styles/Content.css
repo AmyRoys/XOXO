@@ -13,7 +13,7 @@
     width: 400px;
     height: 450px;
     color:rgb(245, 235, 177);
-    font: 15px Times New Roman;
+    font-size: 15px;
     text-align: center;
 }
 .arrow {

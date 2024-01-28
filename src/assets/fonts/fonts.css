@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Soleil';
+  src: local('NewFontRegular'), url('./SoleilRegular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Soleil-Light';
+  src: local('NewFontRegular'), url('./SoleilLight.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
