@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import './Content.css';
-import serena from './assets/primary-imgs/serena.jpeg';
-import blair from './assets/primary-imgs/blair.jpg';
-import Jenny_Humphrey_Season_3 from './assets/primary-imgs/Jenny_Humphrey_Season_3.jpg';
-import dan from './assets/primary-imgs/dan.jpg';
+import '../styles/Content.css';
+import serena from '../assets/primary-imgs/serena.jpeg';
+import blair from '../assets/primary-imgs/blair.jpg';
+import Jenny_Humphrey_Season_3 from '../assets/primary-imgs/Jenny_Humphrey_Season_3.jpg';
+import dan from '../assets/primary-imgs/dan.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
